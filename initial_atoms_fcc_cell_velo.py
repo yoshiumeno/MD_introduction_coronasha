@@ -68,6 +68,5 @@ print('%12.8f %12.8f %12.8f' % (lx,ly,lz), file=f)
 for i in range(natom):
     print('%d %12.8f %12.8f %12.8f %12.8e %12.8e %12.8e' % (i,rx[i],ry[i],rz[i],vx[i],vy[i],vz[i]))
     print('%12.8f %12.8f %12.8f %12.8e %12.8e %12.8e' % (rx[i],ry[i],rz[i],vx[i],vy[i],vz[i]), file=f)
-
 f.close()
 
